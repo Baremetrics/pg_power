@@ -29,7 +29,7 @@ group :development do
     # RubyMine internal debugger conflicts with ruby-debug. So, require it only when it's run outside of RubyMine
     gem "ruby-debug"   if version18
     gem "ruby-debug19" if version19
-    gem "debugger"     if version2x
+    gem "pry-byebug"   if version2x
   end
 end
 
